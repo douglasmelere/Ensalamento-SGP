@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+
+}
+
+.navstyle{
+    font-style: oblique;
+    display: flex;
+    list-style: none;
+    line-height: 4rem;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #D9D9D9;
+}
+
+.titleDay{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.datainput{
+    background-color: #D9D9D9;
+    border: none;
+    width: 19rem;
+    height: 2rem;
+    margin-top: 4rem;
+    margin-left: 2rem;  
+    display: flex;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.iconeListagem{
+    display: flex;
+}
+
+.turno {
+    border: none;
+    width: 19rem;
+    height: 2rem;
+    margin-top: 3.3rem;
+    margin-left: 3rem;
+}
+
+.inputTurnos {
+    border: none;
+    background-color: #D9D9D9;
+    width:19.5rem;
+    height: 2rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+
+.table{
+    width: 54rem;
+    margin-left: 10rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tableHead{
+    background-color: gray;
+    line-height: 5rem;
+}
+
+.tableHead table th tr{
+    width: 2rem;
+}
+
+.linhaTabela{
+    width: 50rem;
+}
+
+.linhaTabela2{
+    padding: 1.2rem;
+    justify-content: center;
+    font-weight: normal;
+    height: 83.34px;
+    background-color: #D9D9D9;
+}
+
+.finalPage{
+    margin-top: 5rem;
+}
+
+.table{
+    width: 50rem;
+    text-align: center;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 45rem;
+}
+
+.data{
+    margin-bottom: 2rem;
+    height: 2rem;
+    display: flex;
+}
+
+.project{
+    margin-top: 4.2rem;
+    margin-left: 3.1rem;
+}
+
+.twoInput{
+    margin-bottom: 2rem;
+    height: 2rem;
+    display: flex;
+}
+
+.threeInput{
+    height: 2rem;
+    display: flex;
+}
+
+
+.turma{
+    margin-top: 4.2rem;
+    margin-left: 3.5rem;
+}
+
+.atividade{
+    margin-top: 4.2rem;
+    margin-left: 1.7rem;
+}
+
+.colaboradorAndPeriod{
+    display: flex;
+}
+
+.table1{
+    margin-left: 45rem;
+}
+
+.table2{
+    margin-left: 4rem;
+    height: 5rem;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    font-weight: bold;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    border-radius: 8px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a:nth-child(3) {
+    border-radius: 0 0 8px 8px;
+  }
+
+  .calendario:hover, .salasTurmas:hover{
+    font-weight: bold;
+    color: black;
+  }
+
+  .sair:hover{
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
